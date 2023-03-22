@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Mantra () {
     return (
       <><h1 class="heading">Mantras</h1>

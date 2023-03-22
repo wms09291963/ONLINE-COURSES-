@@ -41,6 +41,7 @@
 
 body {
   border-width:medium;
+  border:#afa0a0;
   background-color:darkslategray;
   font-size: larger;
   color: white;
@@ -56,16 +57,24 @@ body {
 
 .site-title {
     font-size: 2rem;
+    text-align: right;
+    align-items: center;
+    display:block;
   }
 
 .nav {
-  background-color: #333;
+  background-color: #afa0a0;
   color: white;
-  display:flex;
+  display:flexbox;
   justify-content:space-between;
   align-items:stretch;
   gap: 1rem;
   padding:0 1rem;
+  list-style:lower-latin;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align:center;
 
 }
 
@@ -79,11 +88,12 @@ body {
 
 }
 
-
 .nav ul {
 padding: 0;
 margin: 0;
-list-style: none
+list-style: none;
+display: flex;
+gap: 1rem;
 
 }
 

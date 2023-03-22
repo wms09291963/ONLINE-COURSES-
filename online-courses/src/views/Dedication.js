@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Ded () {
     return (
       <><h1 class="heading">Dedication of “Rules” to the first radical: Lucifer</h1>

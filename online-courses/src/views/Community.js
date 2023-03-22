@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Comm () {
     return (
       <><h1 class="heading">Community Organizers</h1>

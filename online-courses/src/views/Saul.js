@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Activist () {
     return (
       <><h1 class="heading">Saul Alinsky and his “Rules for Radicals”</h1>

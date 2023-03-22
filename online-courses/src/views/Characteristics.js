@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Character () {
     return (
       <><h1 class="heading">Characteristics of Alinskites continued</h1>

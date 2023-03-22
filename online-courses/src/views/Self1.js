@@ -11,7 +11,7 @@ function SelfCheck1() {
       </label>
       <p>
       <label>2.	In your own words, describe the Modus Operandi. Their Modus Operandi is to recruit and train a revolutionary army and infiltrate every institution of American Society and government. They are taught to be flexible, opportunistic, say anything, do anything, even lie and deceive to get what you want, which is resources and power.
-      <input type="text" />
+      <input type="text-box" />
       </label>
       </p>
       <p>

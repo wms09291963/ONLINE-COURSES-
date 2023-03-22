@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -29,12 +30,12 @@ function SelfCheck2() {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<SelfCheck2/>);
 
-export default function Self1() { 
+export default function Self2() { 
   return (
 
   <section>
 
-    <SelfCheck1 />
+    <SelfCheck2 />
 
   </section>
   );
