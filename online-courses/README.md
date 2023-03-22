@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+I've attached the rough draft of the course I was telling you about. I don't expect you to read everything and respond immediately, just at your leisure. This is only the first draft. I expect to finish everything by Friday next week, then send it to Christopher G. Adamo for him to review, make changes, etc.
+
+Chris is the author of Rules for Defeating Radicals. In his book he studied Marxist revolutionary Saul Alinksy's Rules for Radicals published in 1971. People like Hillary Clinton and Barack Obama were his followers, and other Marxist Communists too Alinsky's methods, expounded upon them and are using them even today. So Chris Adamo came up with his own Rules for Defeating Radicals as counterstrategies.
+
+We want to make parts of his book into a short course, so people can go online, quickly learn Chris' strategies and use them. Just like I first contacted Adamo and asked him if I could turn his book into a course, I want to do the same with other authors if I think their work is conducive to a course. I want short courses for working and busy people who may not have time to read a whole book, but want to quickly learn some skills that they can use.
+
+The goal is also to empower and encourage people to be active and positive, be bold and speak the truth.
+
+Actually, Mike, my goal is to make a website full of courses, resources, reference material, glossary of terms and information for people to use, and call the website "The Patriot's Portal".
+
+So please skim through and let me know what you think. I already have in mind how I want it laid out. Very simple to maneuver, nothing too complicated.
+

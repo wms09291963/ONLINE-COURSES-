@@ -38,10 +38,6 @@
   }
 }
 
-const container {
-  width: 500;
-  margin: 50px auto
-}
 
 body {
   border-width:medium;
@@ -53,7 +49,58 @@ body {
   text-align:justify;
   margin-left: 30;
 }
+
 .heading {
   text-align: center; 
+}
+
+.site-title {
+    font-size: 2rem;
+  }
+
+.nav {
+  background-color: #333;
+  color: white;
+  display:flex;
+  justify-content:space-between;
+  align-items:stretch;
+  gap: 1rem;
+  padding:0 1rem;
 
 }
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display:flex;
+  align-items: center;
+  padding: .25rem;
+
+}
+
+
+.nav ul {
+padding: 0;
+margin: 0;
+list-style: none
+
+}
+
+.nav li.active {
+  background-color: #555;
+}
+
+
+.nav li:hover {
+  background-color: #777;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+  
+}
+
+
+
