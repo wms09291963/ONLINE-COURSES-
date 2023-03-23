@@ -1,4 +1,6 @@
 import '../src/App.css';
+import Courses from '../src/views/Courses';
+import Home from '../src/views/Home';
 import Gallery from '../src/views/Gallery';
 import Rationale from '../src/views/Rationale';
 import Saul from '../src/views/Saul';
@@ -16,11 +18,15 @@ function App() {
   
 return (
   <>
+  
   <Navbar />
   <div className="container">
   
    
     <Routes>
+      <Route path="/home" element={<Home />} />   
+      <Route path="/index" element={<index />} /> 
+      <Route path="/courses" element={<Courses />} /> 
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/characteristics" element={<Characteristics />} />
       <Route path="/community" element={<Community />} />
@@ -39,7 +45,6 @@ return (
 
  )
 
- //{component}
 
 }
 
