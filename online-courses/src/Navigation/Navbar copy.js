@@ -4,15 +4,24 @@ export default function Navbar() {
     const path = window.location.pathname
     return (
         <Link to = "/" className="nav">
-            
+            <Link to ="/" className="site-title">The Patriot's Portal</Link>
                     
             <ul>
                 <CustomLink to ="/Home">Home</CustomLink>
                 <CustomLink to ="/Courses">Courses</CustomLink>
                 <CustomLink to ="/Encyclopedia">Encyclopedia</CustomLink>
                 <CustomLink to ="/BookSales">Book Sales</CustomLink>
-                <CustomLink to ="/Resources">Resources</CustomLink>
-                                
+                <CustomLink to ="/Home">Home</CustomLink>
+                <CustomLink to ="/Courses">Courses</CustomLink>
+                <CustomLink to ="/Gallery">Introduction</CustomLink>
+                <CustomLink to ="/Characteristics">Characteristics</CustomLink>
+                <CustomLink to ="/Dedication">Dedication</CustomLink>
+                <CustomLink to ="/Mantras">Mantras</CustomLink>
+                <CustomLink to ="/Self1">Self Check 1</CustomLink>
+                <CustomLink to ="/Self2">Self Check 2</CustomLink>
+                <CustomLink to ="/Community">Community</CustomLink>
+                <CustomLink to ="/Rationale">Rationale</CustomLink>
+                <CustomLink to ="/Saul">Saul</CustomLink>
             </ul>
             
          </Link>

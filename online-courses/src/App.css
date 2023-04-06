@@ -65,12 +65,13 @@ body {
 .nav {
   background-color: #afa0a0;
   color: white;
-  display:flexbox;
-  justify-content:space-between;
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
   align-items:stretch;
   gap: 1rem;
   padding:0 1rem;
-  list-style:lower-latin;
+  list-style-type:none;
   font-weight: bold;
   margin-bottom: 10px;
   width: 100%;
@@ -108,9 +109,14 @@ gap: 1rem;
 
 .container {
   margin: 1rem;
-  text-align: center;
+  text-align: left;
   
 }
+.Home {
+  
+  margin:auto;
+  text-align:left
 
+}
 
 

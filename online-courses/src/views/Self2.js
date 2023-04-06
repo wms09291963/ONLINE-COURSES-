@@ -33,10 +33,10 @@ root.render(<SelfCheck2/>);
 export default function Self2() { 
   return (
 
-  <section>
+   <section>
 
-    <SelfCheck2 />
+     <SelfCheck2 />
 
-  </section>
-  );
+   </section>
+   );
   }         
