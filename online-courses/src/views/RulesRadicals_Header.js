@@ -3,7 +3,7 @@ import React from 'react';
 
 
 
-function Courselist () {
+function RulesHeader () {
     return (
     <><><><><h1 class="heading">Courses</h1>
 
@@ -26,12 +26,12 @@ function Courselist () {
            
        }
       
-   export default function Courses() { 
+   export default function RulesRadicals_Header() { 
         return (
 
         <section>
 
-          <Courselist />
+          <RulesHeader />
 
         </section>
         );
