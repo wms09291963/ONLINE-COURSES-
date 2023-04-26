@@ -14,23 +14,31 @@ import Characteristics from '../src/views/Characteristics';
 import Mantras from '../src/views/Mantras';
 import SignUp from '../src/views/SignUp';
 import Navbar from '../src/Navigation/Navbar';
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router-dom";
+import Header from './Header';
+import Footer from './Footer';
  
 
 function App() {
   
 return (
-  <>
-  
-  <Navbar />
-  <div className="container">
-  
-   
+  <><><div className="App">
+    <div className="container">
+      <div className='content-wrapper'>
+        <Header />
+        <Navbar />
+      </div>
+    </div>
+    <Footer />
+    <br /><br />
+    <></>
+
+
     <Routes>
-      <Route path="/home" element={<Home />} />   
-      <Route path="/encyclopedia" element={<Encyclopedia />} />   
-      <Route path="/index" element={<index />} /> 
-      <Route path="/courses" element={<Courses />} /> 
+      <Route path="/home" element={<Home />} />
+      <Route path="/encyclopedia" element={<Encyclopedia />} />
+      <Route path="/index" element={<index />} />
+      <Route path="/courses" element={<Courses />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/characteristics" element={<Characteristics />} />
       <Route path="/community" element={<Community />} />
@@ -42,17 +50,16 @@ return (
       <Route path="/saul" element={<Saul />} />
       <Route path="/booksales" element={<BookSales />} />
       <Route path="/resources" element={<Resources />} />
+      <Route path="/logo" element={<logo___ />} />
 
     </Routes>
-
   </div>
-  <>
+  </><>
     </></>
 
  )
-
 }
 
-
 export default App
+
 
