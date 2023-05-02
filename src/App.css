@@ -1,3 +1,25 @@
+.navbar {
+  /* Add some margin-bottom to create space after the navbar */
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  /* Add some margin-top to create space between the navbar and its contents */
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+
 .App {
   text-align: left;
   font-family: sans-serif;
@@ -48,8 +70,8 @@
 
 
 body {
+  border: 1px solid blue;
   border-width:medium;
-  border:#b08585;
   background-color:rgb(33, 108, 133);
   font-size: larger;
   color: white;

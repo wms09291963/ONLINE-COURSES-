@@ -27,8 +27,11 @@ function App() {
     <><div className="App">
        <div className="container">
          <div className='content-wrapper'>
+           <div className="navbar">
+            <Navbar />
+           </div>
           <Header />
-          <Navbar />
+          
 
           <Routes>
              <Route path="/home" element={<Home />} />   

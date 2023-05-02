@@ -74,7 +74,7 @@ export default function App() {
         <section className=''>
           <MDBRow>
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
+              <h5 className='text-uppercase'>Sub Stack Artices</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>
@@ -83,12 +83,12 @@ export default function App() {
                   </a>
                 </li>
                 <li>
-                  <a href='#!' className='text-white'>
-                    Link 2
+                  <a href='https://patriotsportal.substack.com/p/the-propaganda-agencies-of-war?utm_source=substack&utm_medium=email' className='text-white'>
+                    WW2 - Part 2: The Propoganda Agencies of War
                   </a>
                 </li>
                 <li>
-                  <a href='#!' className='text-white'>
+                  <a href='https://patriotsportal.substack.com/p/the-propaganda-agencies-of-war?utm_source=substack&utm_medium=email' className='text-white'>
                     Link 3
                   </a>
                 </li>

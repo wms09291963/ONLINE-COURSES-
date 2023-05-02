@@ -4,8 +4,7 @@ export default function Navbar() {
     const path = window.location.pathname
     return (
         <Link to = "/" className="nav">
-            
-                    
+                               
             <ul>
                 <CustomLink to ="/Home">Home</CustomLink>
                 <CustomLink to ="/Courses">Courses</CustomLink>

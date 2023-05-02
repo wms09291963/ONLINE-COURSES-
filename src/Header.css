@@ -1,0 +1,23 @@
+header {
+  border: 1px solid red;
+  padding: 20px;
+   /* Add a background image */
+   background-image: url('https://th.bing.com/th/id/OIP.9KmX_LWu7qge68bs1878ywHaFp?pid=ImgDet&rs=1');
+   /* Set the height of the header */
+   height: 300px;
+   /* Set the background image to cover the entire header */
+   background-size: cover;
+   /* Center the background image */
+   background-position: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px; /* add margin-bottom to create some space after the h1 */
+
+  }

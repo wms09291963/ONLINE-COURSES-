@@ -1,10 +1,15 @@
 import React from 'react';
 import logo from '../src/logo.png';
+import '../src/Header.css';
 
 
 function Header() {
-  return <><img src={logo} width={175} height={175} alt="logo" />
-  <h1>The Patriots Portal<h1 /></h1></>;
+  return (
+   <header>
+      <img src={logo} width={175} height={175} alt="logo" />
+      <h1>The Patriots Portal</h1>
+    </header>
+  )
 }
                      
       
