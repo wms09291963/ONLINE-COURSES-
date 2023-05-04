@@ -1,0 +1,12 @@
+footer {
+    /* Add a background image */
+    background-image: url('https://www.bing.com/ck/a?!&&p=cb7cb86026100a04JmltdHM9MTY4Mjk4NTYwMCZpZ3VpZD0zNjNhNmZiNS01MGE0LTY2OWItMzBiZi03ZDRkNTFiZTY3YTEmaW5zaWQ9NTgzMQ&ptn=3&hsh=3&fclid=363a6fb5-50a4-669b-30bf-7d4d51be67a1&u=a1L2ltYWdlcy9zZWFyY2g_cT1mcmVlIGJhbGQgZWFnbGUgaW1hZ2VzJkZPUk09SVFGUkJBJmlkPTUwNzA4RTkyMjBEQjQ0RjM1NTkyRjg1QkJERUJEMzk4OTE5REEyNjk&ntb=1');
+    
+    /* Set the height of the header */
+    height: 400px;
+    /* Set the background image to cover the entire header */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+  }
+  

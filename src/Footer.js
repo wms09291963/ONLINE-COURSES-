@@ -1,6 +1,7 @@
 import React from 'react';
 import * as mdb from 'mdb-ui-kit'; // lib
 import logo from '../src/logo.png';
+import '../src/Footer.css';
 import {
   MDBFooter,
   MDBContainer,
@@ -15,32 +16,7 @@ export default function App() {
   return (
     <MDBFooter className='text-center' color='white' bgColor='info'>
       <MDBContainer className='p-4'>
-        <section className='mb-4'>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='facebook-f' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='twitter' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='google' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='instagram' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='linkedin-in' />
-          </MDBBtn>
-
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            <MDBIcon fab icon='github' />
-          </MDBBtn>
-        </section>
-
+    
         <section className=''>
           <form action=''>
             <MDBRow className='d-flex justify-content-center'>
@@ -83,12 +59,13 @@ export default function App() {
                   </a>
                 </li>
                 <li>
+                 <a href='https://patriotsportal.substack.com/p/the-propaganda-agencies-of-war?utm_source=substack&utm_medium=email' target='_blank' className='text-white'>
+                  WW2 - Part 2: The Propaganda Agencies of War
+                </a>
+             </li>
+
+                <li>
                   <a href='https://patriotsportal.substack.com/p/the-propaganda-agencies-of-war?utm_source=substack&utm_medium=email' className='text-white'>
-                    WW2 - Part 2: The Propoganda Agencies of War
-                  </a>
-                </li>
-                <li>
-                  <a href='https://patriotsportal.substack.com/p/the-propaganda-agencies-of-war?utm_source=substack&utm_medium=email' className='text-white'>
                     Link 3
                   </a>
                 </li>
@@ -152,33 +129,8 @@ export default function App() {
                   </a>
                 </li>
               </ul>
-            </MDBCol>
+          
 
-            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
-
-              <ul className='list-unstyled mb-0'>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 4
-                  </a>
-                </li>
-              </ul>
             </MDBCol>
           </MDBRow>
         </section>
@@ -196,24 +148,5 @@ export default function App() {
 
 
 
-
-
-
-//function Footer() {
-//  return(
-//    <><h1>The Patriots Portal Footer</h1>
-//      <h3>More text.</h3>
-//      <p>This is even more text before the links</p>
-//      <div className="footerlinks"></div>
-//        <a href={'http://www.google.com'}>Google</a>
-//        <a href={'http://www.google.com'}>Google</a>
-//       <a href={'http://www.google.com'}>Google</a>
-//      <div />
         
-//        <img src={logo} width={175} height={175} alt="logo" /><></></>
-//        )
-//      }
 
-
-//      export default Footer;
-  
