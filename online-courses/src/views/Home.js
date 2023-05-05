@@ -1,5 +1,7 @@
 import React from 'react';
 //import SignUp from '../src/views/SignUp';
+import ReactDOM from 'react-dom';
+
 
 function HomePage() {
  return (
@@ -22,16 +24,7 @@ function HomePage() {
         )
     }
 
-    export default function Home() { 
-        return (
-
-        <section>
-
-         <HomePage />
-
-       </section>
-       );
-       }         
+      ReactDOM.render(<HomePage />, document.getElementById('root'));
 
 
    
